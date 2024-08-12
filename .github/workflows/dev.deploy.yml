@@ -78,6 +78,7 @@ jobs:
           set -e
 
           IMAGE_URI="${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}"
+          echo "IMAGE_URI=${IMAGE_URI}"
 
           # Ensure IMAGE_URI is not empty
           if [ -z "$IMAGE_URI" ]; then
