@@ -5,7 +5,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REPOSITORY: gibmepdf-prod
+  ECR_REPOSITORY: production/gibmepdf-prod
   ECS_SERVICE: gibmepdf-prod
   ECS_CLUSTER: one-prod
   ECS_TASK_DEFINITION: .aws/prod-task-definition.json
